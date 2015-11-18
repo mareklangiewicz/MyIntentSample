@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_sections"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/fragment1"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Fragment1"
+            android:titleCondensed="cmd:fragment .Fragment1"
+            />
+        <item
+            android:id="@+id/fragment2"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Fragment2"
+            android:titleCondensed="cmd:fragment .Fragment2"
+            />
+    </group>
+    <item
+        android:title="Dummmmmmy stufffff"
+        >
+        <menu>
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 1"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 2"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 3"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 4"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 5"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 6"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 7"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 8"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 9"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 10"
+                />
+            <item
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="dummy 11"
+                />
+        </menu>
+    </item>
+
+</menu>

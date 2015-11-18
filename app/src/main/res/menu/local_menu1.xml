@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Local 1 item 1"
+        android:icon="@android:drawable/ic_search_category_default"
+        />
+    <item
+        android:title="Local 1 item 2"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        />
+    <item
+        android:title="Local 1 item 3"
+        android:icon="@android:drawable/ic_delete"
+        />
+    <item
+        android:title="Local 1 item 4"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        />
+    <item
+        android:title="Local 1 item 5"
+        android:icon="@android:drawable/ic_input_get"
+        />
+</menu>
