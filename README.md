@@ -1,12 +1,10 @@
 # My Blocks Sample
 
-This is a really simple android application showing usage of
-[My Blocks](https://github.com/langara/MyBlocks) library.
+This is a really simple android application showing usage of [My Blocks](https://github.com/langara/MyBlocks) library.
 
-It shows how using `MyActivity` and `MyFragment` base classes can reduce the boilerplate code.
+It shows how using `MyActivity` and `MyFragment` base classes can reduce boilerplate code.
 
-The `MyBlocks` library gives you kind material look and behavior ready to use, so you only provide
-the content in your fragment classes.
+The `MyBlocks` library gives you pretty versatile outer layout and material look and behavior ready to use, so you only have to provide the content for your fragment classes. It supports min sdk: 16
 
 ##### It uses two navigation panels:
 
@@ -15,13 +13,11 @@ the content in your fragment classes.
 
 Those two navigation panels are implemented as drawers, so it does not take your screen if it is small. But it automatically switches to permanent side panel (or two) if the screen is wide enough.
 
-##### Whole app contains only:
+##### App contains only:
 * 3 really short java files
-* 2 xml layouts (for Fragment1 and Fragment2)
-* 3 xml menu definitions
-* 4 png images
+* some simple resource files like two xml layouts for fragments and some images.
 
-##### Whole java source code is here:
+##### All java code is this:
 
 ```java
 public class MainActivity extends MyActivity {
