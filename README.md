@@ -74,43 +74,31 @@ And the result looks like this:
 #### Screenshots
 
 
+
 ###### Nexus 4 portrait
 
-![device-nexus4-port-2015-11-18-141603.png](screenshots/device-nexus4-port-2015-11-18-141603.png)
+[![device-nexus4-port-2015-11-18-141603.png](screenshots/thumbnails/device-nexus4-port-2015-11-18-141603.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus4-port-2015-11-18-141603.png)
+[![device-nexus4-port-2015-11-18-141647.png](screenshots/thumbnails/device-nexus4-port-2015-11-18-141647.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus4-port-2015-11-18-141647.png)
+[![device-nexus4-port-2015-11-18-141730.png](screenshots/thumbnails/device-nexus4-port-2015-11-18-141730.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus4-port-2015-11-18-141730.png)
+[![device-nexus4-port-2015-11-18-141747.png](screenshots/thumbnails/device-nexus4-port-2015-11-18-141747.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus4-port-2015-11-18-141747.png)
+[![device-nexus4-port-2015-11-18-141808.png](screenshots/thumbnails/device-nexus4-port-2015-11-18-141808.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus4-port-2015-11-18-141808.png)
+[![device-nexus4-port-2015-11-18-141822.png](screenshots/thumbnails/device-nexus4-port-2015-11-18-141822.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus4-port-2015-11-18-141822.png)
 
-![device-nexus4-port-2015-11-18-141647.png](screenshots/device-nexus4-port-2015-11-18-141647.png)
-
-![device-nexus4-port-2015-11-18-141730.png](screenshots/device-nexus4-port-2015-11-18-141730.png)
-
-![device-nexus4-port-2015-11-18-141747.png](screenshots/device-nexus4-port-2015-11-18-141747.png)
-
-![device-nexus4-port-2015-11-18-141808.png](screenshots/device-nexus4-port-2015-11-18-141808.png)
-
-![device-nexus4-port-2015-11-18-141822.png](screenshots/device-nexus4-port-2015-11-18-141822.png)
 
 
 ###### Nexus 7 landscape
 
-![device-nexus7-land-2015-11-18-163417.png](screenshots/device-nexus7-land-2015-11-18-163417.png)
+[![device-nexus7-land-2015-11-18-163417.png](screenshots/thumbnails/device-nexus7-land-2015-11-18-163417.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-land-2015-11-18-163417.png)
+[![device-nexus7-land-2015-11-18-163502.png](screenshots/thumbnails/device-nexus7-land-2015-11-18-163502.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-land-2015-11-18-163502.png)
+[![device-nexus7-land-2015-11-18-163529.png](screenshots/thumbnails/device-nexus7-land-2015-11-18-163529.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-land-2015-11-18-163529.png)
+[![device-nexus7-land-2015-11-18-163629.png](screenshots/thumbnails/device-nexus7-land-2015-11-18-163629.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-land-2015-11-18-163629.png)
+[![device-nexus7-land-2015-11-18-163820.png](screenshots/thumbnails/device-nexus7-land-2015-11-18-163820.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-land-2015-11-18-163820.png)
 
-![device-nexus7-land-2015-11-18-163502.png](screenshots/device-nexus7-land-2015-11-18-163502.png)
-
-![device-nexus7-land-2015-11-18-163529.png](screenshots/device-nexus7-land-2015-11-18-163529.png)
-
-![device-nexus7-land-2015-11-18-163629.png](screenshots/device-nexus7-land-2015-11-18-163629.png)
-
-![device-nexus7-land-2015-11-18-163820.png](screenshots/device-nexus7-land-2015-11-18-163820.png)
 
 
 ###### Nexus 7 portrait
 
-![device-nexus7-port-2015-11-18-163923.png](screenshots/device-nexus7-port-2015-11-18-163923.png)
-
-![device-nexus7-port-2015-11-18-163959.png](screenshots/device-nexus7-port-2015-11-18-163959.png)
-
-![device-nexus7-port-2015-11-18-164021.png](screenshots/device-nexus7-port-2015-11-18-164021.png)
-
-
-
-
+[![device-nexus7-port-2015-11-18-163923.png](screenshots/thumbnails/device-nexus7-port-2015-11-18-163923.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-port-2015-11-18-163923.png)
+[![device-nexus7-port-2015-11-18-163959.png](screenshots/thumbnails/device-nexus7-port-2015-11-18-163959.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-port-2015-11-18-163959.png)
+[![device-nexus7-port-2015-11-18-164021.png](screenshots/thumbnails/device-nexus7-port-2015-11-18-164021.png)](https://raw.githubusercontent.com/langara/MyBlocksSample/app/screenshots/device-nexus7-port-2015-11-18-164021.png)
 
