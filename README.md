@@ -63,8 +63,15 @@ public class Fragment2 extends MyFragment {
 
 And the result looks like this:
 
-* TODO: link to screen record video
-* TODO: link to google play
+#### Google Play
+
+* [My Blocks Sample (on google play)](https://play.google.com/store/apps/details?id=pl.mareklangiewicz.myblockssample)
+
+
+#### Youtube
+
+* [My Blocks Sample (on youtube)](https://www.youtube.com/watch?v=R-bpq55UYGI)
+
 
 
 #### Screenshots
