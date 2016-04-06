@@ -1,10 +1,12 @@
-# My Blocks Sample
+# My Intent Sample
 
-This is a really simple android application showing usage of [My Blocks](https://github.com/langara/MyBlocks) library.
+This is a really simple android application written in Kotlin, showing usage of [My Intent](https://github.com/langara/MyIntent) library.
+(for older Java version see: [My Blocks Sample](https://github.com/langara/MyBlocksSample))
 
 It shows how using `MyActivity` and `MyFragment` base classes can reduce boilerplate code.
 
-The `MyBlocks` library gives you pretty versatile outer layout and material look and behavior ready to use, so you only have to provide the content for your fragment classes. It supports min sdk: 16
+The `MyIntent` library gives you pretty versatile outer layout and material look and behavior ready to use, so you only have to provide the content for your
+fragment classes. It supports min sdk: 16
 
 ##### It uses two navigation panels:
 
@@ -14,67 +16,58 @@ The `MyBlocks` library gives you pretty versatile outer layout and material look
 Those two navigation panels are implemented as drawers, so it does not take your screen if it is small. But it automatically switches to permanent side panel (or two) if the screen is wide enough.
 
 ##### App contains only:
-* 3 really short java files
+* 3 really short kotlin files
 * some simple resource files like two xml layouts for fragments and some images.
 
-##### All java code is this:
+##### The whole Kotlin source code is only this:
 
-```java
-public class MainActivity extends MyActivity {
-
-    @Override protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        getGlobalNavigation().inflateHeader(R.layout.global_header);
-        getGlobalNavigation().inflateMenu(R.menu.global_menu);
-        if(savedInstanceState == null) {
-            selectGlobalItem(R.id.fragment1);
-        }
-    }
-
-}
-
-```
-
-```java
-public class Fragment1 extends MyFragment {
-
-    @Nullable @Override public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        inflateMenu(R.menu.local_menu1);
-        return inflater.inflate(R.layout.fragment1, container, false);
-    }
-
-    @Override public boolean onItemSelected(IMyNavigation nav, MenuItem item) {
-        log.w("[SNACK]Item: %s selected.", item.getTitle());
-        return true;
+```kotlin
+class MainActivity : MyActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        gnav!!.headerId = R.layout.global_header
+        gnav!!.menuId = R.menu.global_menu
+        if (savedInstanceState == null) gnav!!.setCheckedItem(R.id.fragment1, true)
     }
 }
 
 ```
 
-```java
-public class Fragment2 extends MyFragment {
+```kotlin
+class Fragment1 : MyFragment() {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        manager!!.lnav!!.menuId = R.menu.local_menu1
+        manager!!.lnav!!.items { log.w("[SNACK]Item: $it selected.") } // TODO: manage subscription
+        return inflater.inflate(R.layout.fragment1, container, false)
+    }
+}
 
-    @Nullable @Override public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        inflateMenu(R.menu.local_menu2);
-        return inflater.inflate(R.layout.fragment2, container, false);
+```
+
+```kotlin
+class Fragment2 : MyFragment() {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        manager?.lnav?.menuId = R.menu.local_menu2
+        return inflater.inflate(R.layout.fragment2, container, false)
     }
 }
 ```
 
 And the result looks like this:
+(TODO: update it all for new Kotlin version)
 
 #### Google Play
 
-* [My Blocks Sample (on google play)](https://play.google.com/store/apps/details?id=pl.mareklangiewicz.myblockssample)
+* [Old version in Java: My Blocks Sample (on google play)](https://play.google.com/store/apps/details?id=pl.mareklangiewicz.myblockssample)
 
 
 #### Youtube
 
-* [My Blocks Sample (on youtube)](https://www.youtube.com/watch?v=R-bpq55UYGI)
+* [Old version in Java: My Blocks Sample (on youtube)](https://www.youtube.com/watch?v=R-bpq55UYGI)
 
 
 
-#### Screenshots
+#### Screenshots (old version in Java)
 
 
 

@@ -1,4 +1,4 @@
-package pl.mareklangiewicz.myblockssample
+package pl.mareklangiewicz.myintentsample
 
 import android.os.Bundle
 
@@ -10,9 +10,7 @@ class MainActivity : MyActivity() {
         super.onCreate(savedInstanceState)
         gnav!!.headerId = R.layout.global_header
         gnav!!.menuId = R.menu.global_menu
-        if (savedInstanceState == null) {
-            gnav!!.setCheckedItem(R.id.fragment1, true)
-        }
+        if (savedInstanceState == null) gnav!!.setCheckedItem(R.id.fragment1, true)
     }
 
 }

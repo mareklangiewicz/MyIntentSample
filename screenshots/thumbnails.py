@@ -4,7 +4,7 @@ import os
 from PIL import Image
 from pprint import pprint
 
-app_path = "MyBlocksSample/master"
+app_path = "MyIntentSample/master"
 
 filenames = [f for f in os.listdir(".") if f[-4:] == ".png"]
 filenames.sort()

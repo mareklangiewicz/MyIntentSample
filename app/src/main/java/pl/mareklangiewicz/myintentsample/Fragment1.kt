@@ -1,4 +1,4 @@
-package pl.mareklangiewicz.myblockssample
+package pl.mareklangiewicz.myintentsample
 
 import android.os.Bundle
 import android.view.LayoutInflater
